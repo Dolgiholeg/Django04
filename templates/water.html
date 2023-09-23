@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Заказ сформирован</title>
+    <link rel="stylesheet" href="{% static 'css/style1.css' %}">
+</head>
+<body>
+
+<div id="a"><h1>ЗАKАЗ ОФОРМЛЕН</h1></div>
+<div ><h2>Имя: {{ name }} </h2></div>
+<div ><h2>Фамилия: {{ surname }}</h2></div>
+<div ><h2>Электронный адрес: {{ email }}</h2></div>
+<div ><h2>Номер телефона: {{ tel }}</h2></div>
+<div ><h2>Адрес: {{ adres }}</h2></div>
+<div ><h2>Количество месяцев доставки: {{ period }}</h2></div>
+<div ><h2>Объём воды: {{ volume }}</h2></div>
+
+</body>
+</html>
